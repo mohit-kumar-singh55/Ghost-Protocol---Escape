@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 0a3b0e8ce6dd21b469da6d0c925f4d94
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6977980621438317697
+    second: Walking Shoot_0
+  - first:
+      213: 8345006946335562425
+    second: Walking Shoot_1
+  - first:
+      213: 5186616378498824871
+    second: Walking Shoot_2
+  - first:
+      213: 5278287044586451910
+    second: Walking Shoot_3
+  - first:
+      213: -8551808612106974839
+    second: Walking Shoot_4
+  - first:
+      213: 7304105301603964716
+    second: Walking Shoot_5
+  - first:
+      213: -7677497166156338874
+    second: Walking Shoot_6
+  - first:
+      213: 1955570566910592597
+    second: Walking Shoot_7
+  - first:
+      213: 1614568294425210056
+    second: Walking Shoot_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Walking Shoot_0
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 287
+        width: 1282
+        height: 2498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184f36e7764c6d060800000000000000
+      internalID: 6977980621438317697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Shoot_1
+      rect:
+        serializedVersion: 2
+        x: 4159
+        y: 319
+        width: 1282
+        height: 2466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba9f7c9a9b6fc370800000000000000
+      internalID: 8345006946335562425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Shoot_2
+      rect:
+        serializedVersion: 2
+        x: 7359
+        y: 319
+        width: 1282
+        height: 2466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa35aacd109af740800000000000000
+      internalID: 5186616378498824871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Shoot_3
+      rect:
+        serializedVersion: 2
+        x: 10559
+        y: 319
+        width: 1282
+        height: 2466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c33f1bf91e304940800000000000000
+      internalID: 5278287044586451910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Shoot_4
+      rect:
+        serializedVersion: 2
+        x: 13759
+        y: 319
+        width: 1282
+        height: 2466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989cc30706fd15980800000000000000
+      internalID: -8551808612106974839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Shoot_5
+      rect:
+        serializedVersion: 2
+        x: 16959
+        y: 319
+        width: 1282
+        height: 2466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27d620b2156d5560800000000000000
+      internalID: 7304105301603964716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Shoot_6
+      rect:
+        serializedVersion: 2
+        x: 20159
+        y: 319
+        width: 1282
+        height: 2466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649ee27210d047590800000000000000
+      internalID: -7677497166156338874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Shoot_7
+      rect:
+        serializedVersion: 2
+        x: 23359
+        y: 319
+        width: 1282
+        height: 2466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5564aedc115932b10800000000000000
+      internalID: 1955570566910592597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking Shoot_8
+      rect:
+        serializedVersion: 2
+        x: 26559
+        y: 319
+        width: 1282
+        height: 2466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cca2d63f49186610800000000000000
+      internalID: 1614568294425210056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Walking Shoot_0: 6977980621438317697
+      Walking Shoot_1: 8345006946335562425
+      Walking Shoot_2: 5186616378498824871
+      Walking Shoot_3: 5278287044586451910
+      Walking Shoot_4: -8551808612106974839
+      Walking Shoot_5: 7304105301603964716
+      Walking Shoot_6: -7677497166156338874
+      Walking Shoot_7: 1955570566910592597
+      Walking Shoot_8: 1614568294425210056
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
