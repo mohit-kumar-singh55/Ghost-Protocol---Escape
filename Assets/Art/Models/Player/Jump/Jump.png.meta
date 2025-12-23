@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 7b12c42c0f87e954daa98a8e3b3cfbe7
+guid: 9d5b38c01dcdbb048a5b3497cc681c0b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6627447720069987296
-    second: Standing To Shoot_0
+      213: 7460046300004610927
+    second: Jump_0
+  - first:
+      213: 7034338576483803127
+    second: Jump_1
+  - first:
+      213: 6054277451648750542
+    second: Jump_2
+  - first:
+      213: 6937500446539429301
+    second: Jump_3
+  - first:
+      213: 3580086529375993838
+    second: Jump_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Standing To Shoot_0
+      name: Jump_0
       rect:
         serializedVersion: 2
-        x: 959
-        y: 287
-        width: 1357
-        height: 2498
+        x: 671
+        y: 6495
+        width: 1634
+        height: 2690
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0eb7e32769c69fb50800000000000000
-      internalID: 6627447720069987296
+      spriteID: f63fdb7b598678760800000000000000
+      internalID: 7460046300004610927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_1
+      rect:
+        serializedVersion: 2
+        x: 3871
+        y: 6495
+        width: 1634
+        height: 2690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffd4217aadfe9160800000000000000
+      internalID: 7034338576483803127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_2
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 3231
+        width: 1634
+        height: 2690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec35e2de34d150450800000000000000
+      internalID: 6054277451648750542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_3
+      rect:
+        serializedVersion: 2
+        x: 3871
+        y: 3295
+        width: 1634
+        height: 2690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5b81156e3f64060800000000000000
+      internalID: 6937500446539429301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_4
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 223
+        width: 1634
+        height: 2690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeffd98fab50fa130800000000000000
+      internalID: 3580086529375993838
       vertices: []
       indices: 
       edges: []
@@ -125,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5ecc147f695d7f048bdb9d9a5ee19ff9
+    spriteID: d0726dbd30b6a9547a791fc3336d359d
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Standing To Shoot_0: 6627447720069987296
+      Jump_0: 7460046300004610927
+      Jump_1: 7034338576483803127
+      Jump_2: 6054277451648750542
+      Jump_3: 6937500446539429301
+      Jump_4: 3580086529375993838
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
