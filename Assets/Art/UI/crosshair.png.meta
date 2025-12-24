@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7842628441f2c88429a9032fcbe988d1
+guid: 8ad6eecc357ed794fbf8398fb6876c33
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5162327242925409646
-    second: Player Bullet_0
+      213: -6142374563283994760
+    second: crosshair_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player Bullet_0
+      name: crosshair_0
       rect:
         serializedVersion: 2
-        x: 831
-        y: 799
-        width: 2242
-        height: 1602
+        x: 1
+        y: 4
+        width: 800
+        height: 800
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 29afb1749babb58b0800000000000000
-      internalID: -5162327242925409646
+      spriteID: 877ff0ed0e6e1caa0800000000000000
+      internalID: -6142374563283994760
       vertices: []
       indices: 
       edges: []
@@ -126,7 +126,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Player Bullet_0: -5162327242925409646
+      crosshair_0: -6142374563283994760
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
