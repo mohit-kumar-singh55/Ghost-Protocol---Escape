@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     #region Serialized Fields
     [Header("Settings")]
     [SerializeField] private float _speed = 5f;
+    [Tooltip("Time to wait before next dash")]
+    [SerializeField] private float _dashCooldownTime = 3f;
 
     [Space(10)]
     [Header("References")]
@@ -18,6 +20,7 @@ public class PlayerController : MonoBehaviour
     private Animator _playerAnimator;
     private Animator _gunAnimator;
     private float _moveX;
+    private float _dashTimer = 0;
     private bool _isShooting;
 
     // animator params
@@ -39,8 +42,10 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        // update dash timer
+        if (_dashTimer > 0) _dashTimer -= Time.deltaTime;
+
         _playerAnimator.SetFloat(Speed, Mathf.Abs(_rb.linearVelocityX) / _speed);
-        // _playerAnimator.SetBool(IsShooting, false);
     }
 
     void FixedUpdate()
@@ -66,5 +71,21 @@ public class PlayerController : MonoBehaviour
         _isShooting = val.isPressed;
         _playerAnimator.SetBool(IsShooting, _isShooting);
         _gun.SetActive(_isShooting);
+    }
+
+    private void OnSprint(InputValue val)
+    {
+        if (_dashTimer > 0) return;
+
+        // start cooldown timer
+        _dashTimer = _dashCooldownTime;
+
+        // stop shooting
+        _isShooting = false;
+        _playerAnimator.SetBool(IsShooting, _isShooting);
+        _gun.SetActive(_isShooting);
+
+        // sudden force to dash
+        _rb.AddForceX(_moveX * _speed, ForceMode2D.Impulse);
     }
 }

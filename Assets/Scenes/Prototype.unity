@@ -1012,6 +1012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   _speed: 10
+  _dashCooldownTime: 3
   _gun: {fileID: 1357325375}
 --- !u!1 &1114643309
 GameObject:
