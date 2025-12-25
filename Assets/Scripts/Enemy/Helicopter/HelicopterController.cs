@@ -2,9 +2,7 @@ using System;
 using UnityEngine;
 
 /// <summary>
-/// ***** 神風ヘリコプター *****
-/// move towards player to blast,
-/// handle collision with player bullets,
+/// 神風ヘリコプター
 /// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
 public class HelicopterController : MonoBehaviour
@@ -18,10 +16,6 @@ public class HelicopterController : MonoBehaviour
     private Transform _playerTransform;
 
     public Transform PlayerTransform { set => _playerTransform = value; }
-    #endregion
-
-    #region Events
-    public event Action OnHelicopterDestroyed = delegate { };
     #endregion
 
     #region Unity Methods

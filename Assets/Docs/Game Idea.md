@@ -17,10 +17,10 @@ so i am thinking of making this game like:
 # enemy overview
 <!-- - enemy will be army helicopter -->
 <!-- - enemy will be shooting bullets towards player -->
-- there will be two types of bullets, lets say yellow and red bullets
+<!-- - there will be two types of bullets, lets say yellow and red bullets
 	- yellow bullets are just normal bullets
-	- red bullets are homing missile bullets which will chase player until player shot them down
-- enemy and bullets will not have collision with environment, just with player and his bullets
+	- red bullets are homing missile bullets which will chase player until player shot them down -->
+<!-- - enemy and bullets will have collision with environment,player and his bullets -->
 ** if possible (if have time), make ground soldiers as well, who will shoot when the player is in range and can chase until there is a blockage in between **
 
 # environment

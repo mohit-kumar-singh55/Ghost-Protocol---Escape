@@ -137,8 +137,9 @@ GameObject:
   - component: {fileID: 1209592680730209334}
   - component: {fileID: -3477526969708710139}
   - component: {fileID: 1781390255169606925}
+  - component: {fileID: 2950177543264089324}
   m_Layer: 7
-  m_Name: Kamikaze Helicopter
+  m_Name: Kamikaze Helicopter 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -478,3 +479,17 @@ MonoBehaviour:
   _bulletParent: {fileID: 0}
   _bulletsPerBurst: 5
   _burstInterval: 2
+--- !u!114 &2950177543264089324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8097364436180382937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6286d5dae30bbc645bb37ea070d6c505, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HelicopterHealth
+  _maxHealth: 3
+  _explosionEffectPrefab: {fileID: 3081158603627628207, guid: a0056db07b767124fb53fa05f42f02b6, type: 3}

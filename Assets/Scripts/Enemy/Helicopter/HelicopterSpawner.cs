@@ -56,10 +56,13 @@ public class HelicopterSpawner : MonoBehaviour
         Quaternion rot = Quaternion.Euler(0, spawnFromLeft ? 0 : 180, 0);
         helicopter.transform.rotation = rot;
 
-        // get controller
-        if (!helicopter.TryGetComponent(out HelicopterController helicopterController))
+        // get controller and health
+        bool hasController = helicopter.TryGetComponent(out HelicopterController helicopterController);
+        bool hasHealth = helicopter.TryGetComponent(out HelicopterHealth helicopterHealth);
+
+        if (!hasController || !hasHealth)
         {
-            Debug.LogError("HelicopterSpawner: Spawned helicopter has no HelicopterController!");
+            Debug.LogError("HelicopterSpawner: Spawned helicopter has no HelicopterController or HelicopterHealth!");
             Destroy(helicopter);
             return;
         }
@@ -67,6 +70,6 @@ public class HelicopterSpawner : MonoBehaviour
         helicopterController.PlayerTransform = _playerTransform;
 
         // destroy new helicopter when destroyed
-        helicopterController.OnHelicopterDestroyed += SpawnHelicopter;
+        helicopterHealth.OnHelicopterDestroyed += SpawnHelicopter;
     }
 }

@@ -15,12 +15,25 @@ public abstract class Bullet : MonoBehaviour
 
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.TryGetComponent(out Health health))
+        {
+            // ダメージを与える
+            health.TakeDamage();
+        }
+
+        // 衝突エフェクト
+        AfterCollisionEffects();
+
+        Destroy(gameObject);
+    }
+
+    private void AfterCollisionEffects()
+    {
+        // explosion effect
         if (_explosionEffectPrefab)
             Instantiate(_explosionEffectPrefab, transform.position, Quaternion.identity);
 
         // camera shake
         CameraController.Instance.ShakeCamera(0.05f);
-
-        Destroy(gameObject);
     }
 }
