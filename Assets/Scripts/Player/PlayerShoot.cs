@@ -17,9 +17,17 @@ public class PlayerShoot : Shoot
         PlayerController.OnPlayerShoot -= ShouldStartShooting;
     }
 
-    void Start()
+    protected override void Start()
     {
+        base.Start();
+
         crosshair = CrosshairController.Instance;
+
+        if (!crosshair)
+        {
+            Debug.LogError("CrosshairController not found in scene!");
+            enabled = false;
+        }
     }
 
     protected override void Update()

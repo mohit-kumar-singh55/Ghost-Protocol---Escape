@@ -238,7 +238,7 @@ public class PlayerController : MonoBehaviour
         _spine.rotation = Quaternion.Euler(_spine.rotation.eulerAngles.x, _spine.rotation.eulerAngles.y, zAngle);
     }
 
-    // check if a layer is in a layermask
+    // check if a layer is in the layermask
     private bool IsInLayerMask(int layer, LayerMask layerMask) => ((1 << layer) & layerMask.value) != 0;
     #endregion
 }
