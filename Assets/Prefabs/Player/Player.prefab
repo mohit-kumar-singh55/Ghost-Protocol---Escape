@@ -238,7 +238,7 @@ MonoBehaviour:
   _dashForce: 20
   _dashCooldownTime: 3
   _jumpForce: 12
-  _wallJumpForce: 22
+  _wallJumpForce: 18
   _gravityScaleWhenFalling: 3
   _groundLayer:
     serializedVersion: 2
@@ -264,6 +264,7 @@ MonoBehaviour:
   _firePoint: {fileID: 1462542813221154438}
   _bulletPrefab: {fileID: 3698569736581987267, guid: f759f6ad0fae9ee44b1fa38d4f7a188a, type: 3}
   _muzzleFlash: {fileID: 494252938570604132}
+  _bulletParent: {fileID: 0}
 --- !u!114 &5545586624121550823
 MonoBehaviour:
   m_ObjectHideFlags: 0

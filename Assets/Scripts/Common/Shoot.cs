@@ -45,8 +45,6 @@ public abstract class Shoot : MonoBehaviour
         // spawn bullet
         GameObject bullet = Instantiate(_bulletPrefab, _firePoint.position, _firePoint.rotation, _bulletParent);
 
-        // Debug.Break();
-
         // no rigidbody on bullet
         if (!bullet.TryGetComponent(out Rigidbody2D rb))
         {

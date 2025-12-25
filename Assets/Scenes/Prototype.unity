@@ -1496,6 +1496,10 @@ PrefabInstance:
       propertyPath: _bulletParent
       value: 
       objectReference: {fileID: 1617893582}
+    - target: {fileID: 5992368018287170533, guid: d818687e04525be4b83aca62eaa42cb8, type: 3}
+      propertyPath: _wallJumpForce
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 7120584468574325189, guid: d818687e04525be4b83aca62eaa42cb8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.478632
