@@ -11,6 +11,7 @@ public abstract class Shoot : MonoBehaviour
     [SerializeField] protected Transform _firePoint;
     [SerializeField] protected GameObject _bulletPrefab;
     [SerializeField] private GameObject _muzzleFlash;
+    [SerializeField] private Transform _bulletParent;
     #endregion
 
     #region Properties
@@ -42,7 +43,7 @@ public abstract class Shoot : MonoBehaviour
 
         // TODO: change to object pool
         // spawn bullet
-        GameObject bullet = Instantiate(_bulletPrefab, _firePoint.position, _firePoint.rotation);
+        GameObject bullet = Instantiate(_bulletPrefab, _firePoint.position, _firePoint.rotation, _bulletParent);
 
         // Debug.Break();
 

@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 3419379116776395198}
   - component: {fileID: 8389805284232657113}
   - component: {fileID: 5825904896313187456}
-  - component: {fileID: 8032239778561583961}
+  - component: {fileID: 2933773144602838720}
   m_Layer: 9
-  m_Name: Player Bullet
+  m_Name: Helicopter Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 7842628441f2c88429a9032fcbe988d1, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8238993, g: 0.1839523, b: 0.1839523, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -156,7 +156,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &8032239778561583961
+--- !u!114 &2933773144602838720
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,8 +165,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3698569736581987267}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59a29c1a190ef2441b5b2f5703a530de, type: 3}
+  m_Script: {fileID: 11500000, guid: 0341fe0f009ba424f8b5767982574523, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerBullet
+  m_EditorClassIdentifier: Assembly-CSharp::HelicopterBullet
   _lifetime: 3
   _explosionEffectPrefab: {fileID: 7808308310294329273, guid: 6e296378e12341d4e9cd52d4e2b69a8a, type: 3}
