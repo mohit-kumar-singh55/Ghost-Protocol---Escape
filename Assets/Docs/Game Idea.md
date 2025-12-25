@@ -2,21 +2,21 @@ so i am thinking of making this game like:
 
 # story
 - player is spy agent in another country and just got found out.
-- now enemies (army helicopters) is coming from all sides (from outside of the view) and are continuously shooting on player
+- now enemies (army helicopters) is coming from all sides (from outside of the view) and are continuously shooting on player and are 神風ヘリコプター
 - player has to reach a point where his country army helicopter will pick him up (make this cutscene) to win the game
 
 # player overview
-- player will be a let's say white stickman
-- player will have an AK47
-- player can use wall jump (that 斜めに、from one wall to another wall) to reach a higher ground
-- player will have collisions with environment
-- the bullets player shoots will not have collision with environment, just with enemies and their bullets
+<!-- - player will be a let's say white stic/kman -->
+<!-- - player will have an AK47 -->
+<!-- - player can use wall jump (that 斜めに、from one wall to another wall) to reach a higher ground -->
+<!-- - player will have collisions with environment -->
+<!-- - the bullets player shoots will have collision with environment, enemies and their bullets -->
 - on being killed by enemy, show the player blood explosion effect like in "level devil" game
-- can't shoot while jump
+<!-- - can shoot while jump -->
 
 # enemy overview
-- enemy will be army helicopter
-- enemy will be shooting bullets towards player
+<!-- - enemy will be army helicopter -->
+<!-- - enemy will be shooting bullets towards player -->
 - there will be two types of bullets, lets say yellow and red bullets
 	- yellow bullets are just normal bullets
 	- red bullets are homing missile bullets which will chase player until player shot them down

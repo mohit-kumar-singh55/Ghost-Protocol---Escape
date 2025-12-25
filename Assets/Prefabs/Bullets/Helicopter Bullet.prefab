@@ -170,3 +170,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HelicopterBullet
   _lifetime: 3
   _explosionEffectPrefab: {fileID: 7808308310294329273, guid: 6e296378e12341d4e9cd52d4e2b69a8a, type: 3}
+  _homingBulletSpeed: 20
