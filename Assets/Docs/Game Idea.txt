@@ -40,3 +40,7 @@ so i am thinking of making this game like:
 	
 # UI
 - main menu -> Start, Quit buttons -> on righside play the looped animation of player smooking from left hand, taking support of the gun pointing the ground
+
+
+
+** add a video, gif explaining how to do wall jump
