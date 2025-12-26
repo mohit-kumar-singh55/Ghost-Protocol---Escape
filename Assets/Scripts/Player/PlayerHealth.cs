@@ -35,6 +35,7 @@ public class PlayerHealth : Health
         // init
         _uiManager = UIManager.Instance;
         _rb = GetComponent<Rigidbody2D>();
+        _playerShoot = GetComponent<PlayerShoot>();
         _deathEffect = GetComponent<ParticleSystem>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _playerController = GetComponent<PlayerController>();

@@ -176,6 +176,7 @@ public class PlayerController : MonoBehaviour
         if (!_isGrounded) return;
 
         // ** normal jump **
+        _isWall = false;
         _isJumping = true;
         _isGrounded = false;
         _rb.gravityScale = _gravityScaleWhenFalling;        // increase gravity when in air

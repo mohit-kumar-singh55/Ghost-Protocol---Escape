@@ -11,7 +11,7 @@ so i am thinking of making this game like:
 <!-- - player can use wall jump (that 斜めに、from one wall to another wall) to reach a higher ground -->
 <!-- - player will have collisions with environment -->
 <!-- - the bullets player shoots will have collision with environment, enemies and their bullets -->
-- on being killed by enemy, show the player blood explosion effect like in "level devil" game
+<!-- - on being killed by enemy, show the player blood explosion effect like in "level devil" game -->
 <!-- - can shoot while jump -->
 
 # enemy overview
@@ -32,7 +32,7 @@ so i am thinking of making this game like:
 - add entry and ending cutscene
 - add some post processing
 - add some camera shakes on jump, hit, move, helicopter entry, etc
-- add some sprite effect for bullet fire, damage, explosion, helicopter air blow, on sprint, on jump, etc
+<!-- - add some sprite effect for bullet fire, damage, explosion, helicopter air blow, on sprint, on jump, etc -->
 ** if possible, add special power like
 	- lets say after killing 2 helicopters, player can use a special power
 	- special power is that, lets say on pressing T (is special power is available), the time will get slow for sometime, and we will show a domain expension effect as in the GGX JAM game, by which the background will get kind of invisible, to player can focus on shooting, and after sometime, slowly normalize the time and the effect **

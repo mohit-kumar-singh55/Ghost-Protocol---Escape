@@ -17,7 +17,7 @@ public class HelicopterHealth : Health
             OnHelicopterDestroyed?.Invoke();
 
             // camera shake
-            CameraController.Instance.ShakeCamera(0.2f);
+            CameraController.Instance.ShakeCamera(0.3f);
 
             // explosion effect
             if (_explosionEffectPrefab)

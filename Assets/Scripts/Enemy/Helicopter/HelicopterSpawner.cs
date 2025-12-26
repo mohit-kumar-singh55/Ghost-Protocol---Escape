@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 [System.Serializable]
@@ -10,6 +11,7 @@ struct HelicopterSpawnPoints
 public class HelicopterSpawner : MonoBehaviour
 {
     #region Serialized Fields
+    [SerializeField] private float _spawnDelay = 5f;
     [SerializeField] private HelicopterSpawnPoints _helicopterSpawnPoints;
     [SerializeField] private GameObject[] _helicopterPrefabs;
     #endregion
@@ -70,6 +72,12 @@ public class HelicopterSpawner : MonoBehaviour
         helicopterController.PlayerTransform = _playerTransform;
 
         // destroy new helicopter when destroyed
-        helicopterHealth.OnHelicopterDestroyed += SpawnHelicopter;
+        helicopterHealth.OnHelicopterDestroyed += () => StartCoroutine(DelayedSpawnHelicopter(_spawnDelay));
+    }
+
+    private IEnumerator DelayedSpawnHelicopter(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SpawnHelicopter();
     }
 }
