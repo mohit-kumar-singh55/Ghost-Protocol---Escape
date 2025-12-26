@@ -3,6 +3,23 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    private Fader _fader;
+
+    void Start()
+    {
+        _fader = FindAnyObjectByType<Fader>();
+
+        if (!_fader)
+        {
+            Debug.LogError("GameManager: Fader component is missing in the scene!");
+            enabled = false;
+            return;
+        }
+
+        // フェードインでタイトル画面表示
+        _fader.FadeInScreen();
+    }
+
     private void OnEnable()
     {
         PlayerHealth.OnPlayerDeath += OnGameOver;
@@ -19,13 +36,13 @@ public class GameManager : MonoBehaviour
     {
         // 今のレベルを再プレイする
         PlayerPrefs.SetInt(PLAYER_PREFS.LAST_PLAYING_LEVEL, SceneManager.GetActiveScene().buildIndex);
-        SceneManager.LoadScene(SCENES.GAME_OVER);
+        _fader.FadeOutScreen(() => SceneManager.LoadScene(SCENES.GAME_OVER));
     }
 
     private void GoNextLevel()
     {
         int index = SceneManager.GetActiveScene().buildIndex + 1;
         // index = index == SCENES.GAME_OVER ? SCENES.GAME_CLEAR : index;
-        SceneManager.LoadScene(index);
+        _fader.FadeOutScreen(() => SceneManager.LoadScene(index));
     }
 }
