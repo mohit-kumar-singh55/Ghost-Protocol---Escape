@@ -3,29 +3,29 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    void OnEnable()
+    private void OnEnable()
     {
         PlayerHealth.OnPlayerDeath += OnGameOver;
         // GhostHealth.OnPlayerWin += GoNextLevel;
     }
 
-    void OnDisable()
+    private void OnDisable()
     {
         PlayerHealth.OnPlayerDeath -= OnGameOver;
         // GhostHealth.OnPlayerWin -= GoNextLevel;
     }
 
-    void OnGameOver()
+    private void OnGameOver()
     {
         // 今のレベルを再プレイする
         PlayerPrefs.SetInt(PLAYER_PREFS.LAST_PLAYING_LEVEL, SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadScene(SCENES.GAME_OVER);
     }
 
-    void GoNextLevel()
+    private void GoNextLevel()
     {
         int index = SceneManager.GetActiveScene().buildIndex + 1;
-        index = index == SCENES.GAME_OVER ? SCENES.GAME_CLEAR : index;
+        // index = index == SCENES.GAME_OVER ? SCENES.GAME_CLEAR : index;
         SceneManager.LoadScene(index);
     }
 }

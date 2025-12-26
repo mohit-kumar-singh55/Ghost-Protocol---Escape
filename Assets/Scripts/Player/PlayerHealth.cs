@@ -1,9 +1,10 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(Rigidbody2D), typeof(PlayerController))]
+[RequireComponent(typeof(Rigidbody2D), typeof(PlayerController), typeof(PlayerInput))]
 [RequireComponent(typeof(ParticleSystem), typeof(SpriteRenderer), typeof(PlayerShoot))]
 public class PlayerHealth : Health
 {
@@ -21,6 +22,7 @@ public class PlayerHealth : Health
     // to disable player controls on death
     private Rigidbody2D _rb;
     private PlayerShoot _playerShoot;
+    private PlayerInput _playerInput;
     private ParticleSystem _deathEffect;
     private SpriteRenderer _spriteRenderer;
     private PlayerController _playerController;
@@ -35,6 +37,7 @@ public class PlayerHealth : Health
         // init
         _uiManager = UIManager.Instance;
         _rb = GetComponent<Rigidbody2D>();
+        _playerInput = GetComponent<PlayerInput>();
         _playerShoot = GetComponent<PlayerShoot>();
         _deathEffect = GetComponent<ParticleSystem>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
@@ -59,6 +62,7 @@ public class PlayerHealth : Health
     {
         // disable player controls
         _rb.simulated = false;
+        _playerInput.enabled = false;
         _playerShoot.enabled = false;
         _spriteRenderer.enabled = false;
         _playerController.enabled = false;
