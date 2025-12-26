@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(PlayerController))]
-[RequireComponent(typeof(ParticleSystem), typeof(SpriteRenderer))]
+[RequireComponent(typeof(ParticleSystem), typeof(SpriteRenderer), typeof(PlayerShoot))]
 public class PlayerHealth : Health
 {
     #region Serialized Fields
@@ -20,9 +20,10 @@ public class PlayerHealth : Health
 
     // to disable player controls on death
     private Rigidbody2D _rb;
+    private PlayerShoot _playerShoot;
+    private ParticleSystem _deathEffect;
     private SpriteRenderer _spriteRenderer;
     private PlayerController _playerController;
-    private ParticleSystem _deathEffect;
     #endregion
 
     public static event Action OnPlayerDeath = delegate { };
@@ -49,7 +50,7 @@ public class PlayerHealth : Health
         // update health ui
         _uiManager.UpdateHealthUI(_currentHealth, _healthUIs, _healthUIImages[^1]);
 
-        // TODO: check here for "lose condition" when _currentHealth == 0
+        // ** lose condition **
         if (_currentHealth == 0) StartCoroutine(PlayerDeathHandler());
     }
 
@@ -57,8 +58,9 @@ public class PlayerHealth : Health
     {
         // disable player controls
         _rb.simulated = false;
-        _playerController.enabled = false;
+        _playerShoot.enabled = false;
         _spriteRenderer.enabled = false;
+        _playerController.enabled = false;
 
         // play death effect
         _deathEffect.Play();
