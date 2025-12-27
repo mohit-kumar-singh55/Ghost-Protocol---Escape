@@ -477,7 +477,7 @@ MonoBehaviour:
   _bulletPrefab: {fileID: 3698569736581987267, guid: 4c59705ed029d8e40b607406a7ee7558, type: 3}
   _muzzleFlash: {fileID: 7032583699556232780}
   _bulletParent: {fileID: 0}
-  _bulletsPerBurst: 5
+  _bulletsPerBurst: 15
   _burstInterval: 2
 --- !u!114 &2950177543264089324
 MonoBehaviour:
@@ -491,5 +491,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6286d5dae30bbc645bb37ea070d6c505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HelicopterHealth
-  _maxHealth: 5
+  _maxHealth: 20
   _explosionEffectPrefab: {fileID: 3081158603627628207, guid: a0056db07b767124fb53fa05f42f02b6, type: 3}

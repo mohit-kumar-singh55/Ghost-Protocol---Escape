@@ -43,6 +43,7 @@ public class PlayerController : MonoBehaviour
     private bool _isWall = false;
     private Vector3 _wallTouchPoint;
     private float _originalGravityScale;
+    private UIManager _uiManager;
 
     // animator params
     private readonly int Speed = Animator.StringToHash("Speed");
@@ -71,10 +72,11 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         _crosshair = CrosshairController.Instance;
+        _uiManager = UIManager.Instance;
 
-        if (!_crosshair || !_gun)
+        if (!_crosshair || !_gun || !_uiManager)
         {
-            Debug.LogError("Crosshair not found or Gun is not assigned!");
+            Debug.LogError("Crosshair not found or Gun or UIManager is not assigned!");
             enabled = false;
             return;
         }
@@ -83,7 +85,12 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // update dash timer
-        if (_dashTimer > 0) _dashTimer -= Time.deltaTime;
+        if (_dashTimer > 0)
+        {
+            _dashTimer -= Time.deltaTime;
+            // stop dash key animation
+            if (_dashTimer <= 0) _uiManager.PlayDashKeyAnimation(true);
+        }
 
         // update animator
         _playerAnimator.SetFloat(Speed, Mathf.Abs(_rb.linearVelocityX) / _speed);
@@ -149,6 +156,9 @@ public class PlayerController : MonoBehaviour
 
         // stop shooting
         ToogleShoot(false);
+
+        // stop dash key animation
+        _uiManager.PlayDashKeyAnimation(false);
 
         // sudden force to dash
         _rb.AddForceX(_moveX * _dashForce, ForceMode2D.Impulse);

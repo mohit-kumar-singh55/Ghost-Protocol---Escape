@@ -3,6 +3,19 @@ using UnityEngine.UI;
 
 public class UIManager : Singleton<UIManager>
 {
+    [SerializeField] private Animator _dashKeyAnimator;
+
+    private const string DASH_KEY_ANIMATOR_PARAM = "KeyZoom";
+    private readonly int _dashKeyHash = Animator.StringToHash(DASH_KEY_ANIMATOR_PARAM);
+
+    public void PlayDashKeyAnimation(bool play = true)
+    {
+        if (!_dashKeyAnimator) return;
+
+        if (play) _dashKeyAnimator.SetBool(_dashKeyHash, true);
+        else _dashKeyAnimator.SetBool(_dashKeyHash, false);
+    }
+
     public Image[] InitializeHealthUI(int totalHealth, GameObject healthUIParent, GameObject healthUIPrefab)
     {
         // initialize health UI

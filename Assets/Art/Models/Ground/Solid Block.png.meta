@@ -1,0 +1,3263 @@
+fileFormatVersion: 2
+guid: 0eaa4d1d0bc4cd84cb5d14a9032bd8d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3194075205655690325
+    second: Solid Block_0
+  - first:
+      213: 1676571543922765174
+    second: Solid Block_1
+  - first:
+      213: -9097068920397000124
+    second: Solid Block_2
+  - first:
+      213: 3649115120953069761
+    second: Solid Block_3
+  - first:
+      213: -9053588350165256462
+    second: Solid Block_4
+  - first:
+      213: 3233601178564263386
+    second: Solid Block_5
+  - first:
+      213: -8840983509152710445
+    second: Solid Block_6
+  - first:
+      213: 331300800009014990
+    second: Solid Block_7
+  - first:
+      213: 254610327151089852
+    second: Solid Block_8
+  - first:
+      213: -4212266072393087875
+    second: Solid Block_9
+  - first:
+      213: -5066628674030369024
+    second: Solid Block_10
+  - first:
+      213: -590149613902545281
+    second: Solid Block_11
+  - first:
+      213: 7097010936901919349
+    second: Solid Block_12
+  - first:
+      213: 6112983251761745375
+    second: Solid Block_13
+  - first:
+      213: 2503833974554570621
+    second: Solid Block_14
+  - first:
+      213: 5058702402074466925
+    second: Solid Block_15
+  - first:
+      213: -8787496534307116657
+    second: Solid Block_16
+  - first:
+      213: 4141711426066283978
+    second: Solid Block_17
+  - first:
+      213: -5889658296703678197
+    second: Solid Block_18
+  - first:
+      213: 7207376781548226859
+    second: Solid Block_19
+  - first:
+      213: -3052525180119164238
+    second: Solid Block_20
+  - first:
+      213: -1829681813054411069
+    second: Solid Block_21
+  - first:
+      213: -8296158308461731350
+    second: Solid Block_22
+  - first:
+      213: -4064836417660702392
+    second: Solid Block_23
+  - first:
+      213: 2420784954453009348
+    second: Solid Block_24
+  - first:
+      213: 8933831520148673206
+    second: Solid Block_25
+  - first:
+      213: -7156836376170301679
+    second: Solid Block_26
+  - first:
+      213: -996185368714056297
+    second: Solid Block_27
+  - first:
+      213: -7902827039560327947
+    second: Solid Block_28
+  - first:
+      213: 6825731355443625806
+    second: Solid Block_29
+  - first:
+      213: 4620955317844765881
+    second: Solid Block_30
+  - first:
+      213: 1290638434212458379
+    second: Solid Block_31
+  - first:
+      213: 2080634938449647371
+    second: Solid Block_32
+  - first:
+      213: -9058020006054745842
+    second: Solid Block_33
+  - first:
+      213: 5214603229856310723
+    second: Solid Block_34
+  - first:
+      213: 7101751808423161578
+    second: Solid Block_35
+  - first:
+      213: 4925680664583028137
+    second: Solid Block_36
+  - first:
+      213: 337118537666058151
+    second: Solid Block_37
+  - first:
+      213: -8876171073592500256
+    second: Solid Block_38
+  - first:
+      213: 7723280369992786879
+    second: Solid Block_39
+  - first:
+      213: 9194738148171059183
+    second: Solid Block_40
+  - first:
+      213: 1737038270251508114
+    second: Solid Block_41
+  - first:
+      213: -984851219989671587
+    second: Solid Block_42
+  - first:
+      213: -2162741095838036736
+    second: Solid Block_43
+  - first:
+      213: -54264115003339546
+    second: Solid Block_44
+  - first:
+      213: 96962893128924023
+    second: Solid Block_45
+  - first:
+      213: 5044924355507307235
+    second: Solid Block_46
+  - first:
+      213: 8086791643577310145
+    second: Solid Block_47
+  - first:
+      213: 6027040769455611336
+    second: Solid Block_48
+  - first:
+      213: 8135521367892782469
+    second: Solid Block_49
+  - first:
+      213: 1027572074140704048
+    second: Solid Block_50
+  - first:
+      213: -2192276542582372184
+    second: Solid Block_51
+  - first:
+      213: -2389329532118620214
+    second: Solid Block_52
+  - first:
+      213: 8888424945684181248
+    second: Solid Block_53
+  - first:
+      213: -4226478539152388349
+    second: Solid Block_54
+  - first:
+      213: -6439197115406855947
+    second: Solid Block_55
+  - first:
+      213: 5299038158483454281
+    second: Solid Block_56
+  - first:
+      213: -8159701298374113508
+    second: Solid Block_57
+  - first:
+      213: 1835070327581434685
+    second: Solid Block_58
+  - first:
+      213: 5394212473334846157
+    second: Solid Block_59
+  - first:
+      213: 3062470281314215390
+    second: Solid Block_60
+  - first:
+      213: -6899681448431021869
+    second: Solid Block_61
+  - first:
+      213: 7748531431851816913
+    second: Solid Block_62
+  - first:
+      213: -3206511190922238531
+    second: Solid Block_63
+  - first:
+      213: -850768723950015120
+    second: Solid Block_64
+  - first:
+      213: -984596966022716278
+    second: Solid Block_65
+  - first:
+      213: -3719692974512500249
+    second: Solid Block_66
+  - first:
+      213: -1858814223941384367
+    second: Solid Block_67
+  - first:
+      213: -3828245843219744490
+    second: Solid Block_68
+  - first:
+      213: 1649692515531057639
+    second: Solid Block_69
+  - first:
+      213: 3170548118023357276
+    second: Solid Block_70
+  - first:
+      213: 2282202452140866781
+    second: Solid Block_71
+  - first:
+      213: -5826427019439049731
+    second: Solid Block_72
+  - first:
+      213: -561602795831914711
+    second: Solid Block_73
+  - first:
+      213: 5891549811048040569
+    second: Solid Block_74
+  - first:
+      213: 5614937258506125158
+    second: Solid Block_75
+  - first:
+      213: -1082433796441541801
+    second: Solid Block_76
+  - first:
+      213: 6026779730523725873
+    second: Solid Block_77
+  - first:
+      213: 9159573114117786829
+    second: Solid Block_78
+  - first:
+      213: -7637494938685521791
+    second: Solid Block_79
+  - first:
+      213: 2514854794624438449
+    second: Solid Block_80
+  - first:
+      213: -6039872312777263268
+    second: Solid Block_81
+  - first:
+      213: -4131626471182357749
+    second: Solid Block_82
+  - first:
+      213: -4586525767055672607
+    second: Solid Block_83
+  - first:
+      213: -3917316053622335679
+    second: Solid Block_84
+  - first:
+      213: 5167062634874772090
+    second: Solid Block_85
+  - first:
+      213: 7112288285326549895
+    second: Solid Block_86
+  - first:
+      213: 4896662211628768465
+    second: Solid Block_87
+  - first:
+      213: 4152243754328055889
+    second: Solid Block_88
+  - first:
+      213: -8609335474005571087
+    second: Solid Block_89
+  - first:
+      213: -1823765152844056476
+    second: Solid Block_90
+  - first:
+      213: 7663996014739276642
+    second: Solid Block_91
+  - first:
+      213: -736886671114507971
+    second: Solid Block_92
+  - first:
+      213: 8889515613205073784
+    second: Solid Block_93
+  - first:
+      213: -4801143319834595068
+    second: Solid Block_94
+  - first:
+      213: -8534645625869147507
+    second: Solid Block_95
+  - first:
+      213: 3915225819623805246
+    second: Solid Block_96
+  - first:
+      213: 8440866846287324774
+    second: Solid Block_97
+  - first:
+      213: -3618194453790711796
+    second: Solid Block_98
+  - first:
+      213: -5054529165251679868
+    second: Solid Block_99
+  - first:
+      213: -7105280082841976328
+    second: Solid Block_100
+  - first:
+      213: 2490033013773044255
+    second: Solid Block_101
+  - first:
+      213: -331915472106189452
+    second: Solid Block_102
+  - first:
+      213: 7782342194175913936
+    second: Solid Block_103
+  - first:
+      213: -5986977925127985148
+    second: Solid Block_104
+  - first:
+      213: -5498056448960069829
+    second: Solid Block_105
+  - first:
+      213: 8349497780100942339
+    second: Solid Block_106
+  - first:
+      213: -2999917167493084009
+    second: Solid Block_107
+  - first:
+      213: 6531937713786647981
+    second: Solid Block_108
+  - first:
+      213: 8222784830071364503
+    second: Solid Block_109
+  - first:
+      213: -1026215578377534806
+    second: Solid Block_110
+  - first:
+      213: -2798176634853670598
+    second: Solid Block_111
+  - first:
+      213: 9071702201314925733
+    second: Solid Block_112
+  - first:
+      213: -5519703046527996991
+    second: Solid Block_113
+  - first:
+      213: -7401656023359325340
+    second: Solid Block_114
+  - first:
+      213: 6804997033447021426
+    second: Solid Block_115
+  - first:
+      213: 4832569957531976899
+    second: Solid Block_116
+  - first:
+      213: -7029064156329499219
+    second: Solid Block_117
+  - first:
+      213: 2497671949447782840
+    second: Solid Block_118
+  - first:
+      213: 7045809578804795785
+    second: Solid Block_119
+  - first:
+      213: -2201072144908966910
+    second: Solid Block_120
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Solid Block_0
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1311
+        width: 178
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c7df20a72a35c20800000000000000
+      internalID: 3194075205655690325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_1
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1471
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d6b04bfe0644710800000000000000
+      internalID: 1676571543922765174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_2
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1375
+        width: 194
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4429d76e308b0c180800000000000000
+      internalID: -9097068920397000124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_3
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1311
+        width: 194
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c01ae06ed244a230800000000000000
+      internalID: 3649115120953069761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_4
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1327
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6f8cd0d513b5280800000000000000
+      internalID: -9053588350165256462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_5
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1215
+        width: 162
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add7b99b32f00ec20800000000000000
+      internalID: 3233601178564263386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_6
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1391
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0cdd707548e4580800000000000000
+      internalID: -8840983509152710445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_7
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1359
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece07528254099400800000000000000
+      internalID: 331300800009014990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_8
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1279
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb89cf95ebe888300800000000000000
+      internalID: 254610327151089852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_9
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1151
+        width: 210
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74849f13560b85c0800000000000000
+      internalID: -4212266072393087875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_10
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1295
+        width: 82
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0078c9ba018bfa9b0800000000000000
+      internalID: -5066628674030369024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_11
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 1279
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e310b8d0e5fc7f0800000000000000
+      internalID: -590149613902545281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_12
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1295
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572e91578d5ad7260800000000000000
+      internalID: 7097010936901919349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_13
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1199
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fddcb2721eda5d450800000000000000
+      internalID: 6112983251761745375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_14
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1183
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f21e5ebb76fb220800000000000000
+      internalID: 2503833974554570621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_15
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1183
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a5014580f143640800000000000000
+      internalID: 5058702402074466925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_16
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1199
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89e5afc57a8c0680800000000000000
+      internalID: -8787496534307116657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_17
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1151
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd7bd829905a7930800000000000000
+      internalID: 4141711426066283978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_18
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1167
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b098b80ebfab34ea0800000000000000
+      internalID: -5889658296703678197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_19
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1151
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29849a1ffeb50460800000000000000
+      internalID: 7207376781548226859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_20
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1151
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2badf0b858043a5d0800000000000000
+      internalID: -3052525180119164238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_21
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1071
+        width: 162
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce26e8c51aab96e0800000000000000
+      internalID: -1829681813054411069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_22
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 959
+        width: 114
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1abbf29ff1edc80800000000000000
+      internalID: -8296158308461731350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_23
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1135
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841334780dcc697c0800000000000000
+      internalID: -4064836417660702392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_24
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1087
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c328c7171b589120800000000000000
+      internalID: 2420784954453009348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_25
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1071
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b256a12f685bfb70800000000000000
+      internalID: 8933831520148673206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_26
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1071
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11776c20c3fcdac90800000000000000
+      internalID: -7156836376170301679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_27
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1071
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d6b576fa6dc22f0800000000000000
+      internalID: -996185368714056297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_28
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1087
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc97a1bda4835290800000000000000
+      internalID: -7902827039560327947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_29
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1007
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f7675e08ed9be50800000000000000
+      internalID: 6825731355443625806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_30
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1039
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bce613f06ee02040800000000000000
+      internalID: 4620955317844765881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_31
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1039
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f23bc51d449e110800000000000000
+      internalID: 1290638434212458379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_32
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1039
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07de8de376efdc10800000000000000
+      internalID: 2080634938449647371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_33
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1023
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09a9b2cbc27b4280800000000000000
+      internalID: -9058020006054745842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_34
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1023
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5a038620efd5840800000000000000
+      internalID: 5214603229856310723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_35
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1039
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeeec00a4ad7e8260800000000000000
+      internalID: 7101751808423161578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_36
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1023
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad3b7197788b5440800000000000000
+      internalID: 4925680664583028137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_37
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 975
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7d8cc168fada400800000000000000
+      internalID: 337118537666058151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_38
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1007
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efdbe0cf6181d480800000000000000
+      internalID: -8876171073592500256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_39
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 975
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3ea2aa39a9e2b60800000000000000
+      internalID: 7723280369992786879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_40
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 991
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef087441a54a9f70800000000000000
+      internalID: 9194738148171059183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_41
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 959
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291a9938a133b1810800000000000000
+      internalID: 1737038270251508114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_42
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 911
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51d7eb880b1552f0800000000000000
+      internalID: -984851219989671587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_43
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 927
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d4f699e666cf1e0800000000000000
+      internalID: -2162741095838036736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_44
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 735
+        width: 194
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eccc2d23173f3ff0800000000000000
+      internalID: -54264115003339546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_45
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 879
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bf751dc3b785100800000000000000
+      internalID: 96962893128924023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_46
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 863
+        width: 130
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2cab0e8fb230640800000000000000
+      internalID: 5044924355507307235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_47
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 895
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbd508772e0a3070800000000000000
+      internalID: 8086791643577310145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_48
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 847
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdd23ea5a954a350800000000000000
+      internalID: 6027040769455611336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_49
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 847
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d69db849d27e070800000000000000
+      internalID: 8135521367892782469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_50
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 815
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d944c6b5ba24e00800000000000000
+      internalID: 1027572074140704048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_51
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 815
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8c4f589187391e0800000000000000
+      internalID: -2192276542582372184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_52
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 751
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac728b2237567ded0800000000000000
+      internalID: -2389329532118620214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_53
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 735
+        width: 82
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001f93c25670a5b70800000000000000
+      internalID: 8888424945684181248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_54
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 751
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f820759288855c0800000000000000
+      internalID: -4226478539152388349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_55
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 719
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f05471075063a6a0800000000000000
+      internalID: -6439197115406855947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_56
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 735
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94975af2127f98940800000000000000
+      internalID: 5299038158483454281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_57
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 623
+        width: 162
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c170e1da6eae2ce80800000000000000
+      internalID: -8159701298374113508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_58
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 703
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33e9558dba777910800000000000000
+      internalID: 1835070327581434685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_59
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 655
+        width: 114
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2da1c2aa71cda40800000000000000
+      internalID: 5394212473334846157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_60
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 671
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5ace4ce74108a20800000000000000
+      internalID: 3062470281314215390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_61
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 543
+        width: 210
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d09aea57486f30a0800000000000000
+      internalID: -6899681448431021869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_62
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 495
+        width: 146
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7f976a840588b60800000000000000
+      internalID: 7748531431851816913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_63
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 607
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5e3c88f0f2083d0800000000000000
+      internalID: -3206511190922238531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_64
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 591
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d62f66a567134f0800000000000000
+      internalID: -850768723950015120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_65
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 607
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84e949a6420652f0800000000000000
+      internalID: -984596966022716278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_66
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 543
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e19aac82fef06cc0800000000000000
+      internalID: -3719692974512500249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_67
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 575
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157c78ecf4a2436e0800000000000000
+      internalID: -1858814223941384367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_68
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 575
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619750240b65fdac0800000000000000
+      internalID: -3828245843219744490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_69
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 543
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e969d83a92e4e610800000000000000
+      internalID: 1649692515531057639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_70
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 527
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53c01e07bc000c20800000000000000
+      internalID: 3170548118023357276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_71
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 527
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddcb161e9030caf10800000000000000
+      internalID: 2282202452140866781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_72
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 543
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3f89cde7f542fa0800000000000000
+      internalID: -5826427019439049731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_73
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 527
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f82919b39c438f0800000000000000
+      internalID: -561602795831914711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_74
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 479
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978c900a65df2c150800000000000000
+      internalID: 5891549811048040569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_75
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 511
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ffc59ffa34ced40800000000000000
+      internalID: 5614937258506125158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_76
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 511
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7537936723c6af0f0800000000000000
+      internalID: -1082433796441541801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_77
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 495
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1302461db3c63a350800000000000000
+      internalID: 6026779730523725873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_78
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 447
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc8531c7375d1f70800000000000000
+      internalID: 9159573114117786829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_79
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 463
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1804ec581da220690800000000000000
+      internalID: -7637494938685521791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_80
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 415
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b017478c1f86e220800000000000000
+      internalID: 2514854794624438449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_81
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 447
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57b134d1201e2ca0800000000000000
+      internalID: -6039872312777263268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_82
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 479
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b23906d9389a6c0800000000000000
+      internalID: -4131626471182357749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_83
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 431
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea78758d136950c0800000000000000
+      internalID: -4586525767055672607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_84
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 271
+        width: 130
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147d7e6ddc5e2a9c0800000000000000
+      internalID: -3917316053622335679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_85
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 415
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a97e3171815b740800000000000000
+      internalID: 5167062634874772090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_86
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 239
+        width: 178
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783af03538ce3b260800000000000000
+      internalID: 7112288285326549895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_87
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 351
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc163d765074f340800000000000000
+      internalID: 4896662211628768465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_88
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 143
+        width: 194
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150ee8de1bbbf9930800000000000000
+      internalID: 4152243754328055889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_89
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 287
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f98ab7200f758880800000000000000
+      internalID: -8609335474005571087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_90
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 239
+        width: 130
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4687ef6914fa0b6e0800000000000000
+      internalID: -1823765152844056476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_91
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 191
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2634b8215cbfb5a60800000000000000
+      internalID: 7663996014739276642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_92
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 143
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39ef701a7d06c5f0800000000000000
+      internalID: -736886671114507971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_93
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 175
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f806ef957ed5b70800000000000000
+      internalID: 8889515613205073784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_94
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 191
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401f4819699ee5db0800000000000000
+      internalID: -4801143319834595068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_95
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 207
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d826a329509de8980800000000000000
+      internalID: -8534645625869147507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_96
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 175
+        width: 82
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e315d12a32da55630800000000000000
+      internalID: 3915225819623805246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_97
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 31
+        width: 162
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666e351dcabf32570800000000000000
+      internalID: 8440866846287324774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_98
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 207
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c002485705799cdc0800000000000000
+      internalID: -3618194453790711796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_99
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 143
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48962561184bad9b0800000000000000
+      internalID: -5054529165251679868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_100
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 159
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1cb88f869f46d90800000000000000
+      internalID: -7105280082841976328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_101
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 143
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a00f055df5e8220800000000000000
+      internalID: 2490033013773044255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_102
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 143
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d87adf2acc46bf0800000000000000
+      internalID: -331915472106189452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_103
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 159
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfa3643efe600c60800000000000000
+      internalID: 7782342194175913936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_104
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 159
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40824a62c4bf9eca0800000000000000
+      internalID: -5986977925127985148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_105
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f70b42acaf2b3b0800000000000000
+      internalID: -5498056448960069829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_106
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a44d35eff5fd370800000000000000
+      internalID: 8349497780100942339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_107
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 127
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c8afbfa372e56d0800000000000000
+      internalID: -2999917167493084009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_108
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 79
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5fa353eba16aa50800000000000000
+      internalID: 6531937713786647981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_109
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 79
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bdfdc9c333d1270800000000000000
+      internalID: 8222784830071364503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_110
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 95
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2c5db5e5622c1f0800000000000000
+      internalID: -1026215578377534806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_111
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 79
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31cfbc0d21ea29d0800000000000000
+      internalID: -2798176634853670598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_112
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 63
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac5181961925ed70800000000000000
+      internalID: 9071702201314925733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_113
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbae06e2531663b0800000000000000
+      internalID: -5519703046527996991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_114
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 63
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b790aff09084990800000000000000
+      internalID: -7401656023359325340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_115
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 63
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b523c5fb4307e50800000000000000
+      internalID: 6804997033447021426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_116
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 63
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c40be6b5ccb01340800000000000000
+      internalID: 4832569957531976899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_117
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 63
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5ac82346fb37e90800000000000000
+      internalID: -7029064156329499219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_118
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 31
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1ea40a76389a220800000000000000
+      internalID: 2497671949447782840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_119
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 31
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98954bb4b7eb7c160800000000000000
+      internalID: 7045809578804795785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Solid Block_120
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 31
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204a1b5cb883471e0800000000000000
+      internalID: -2201072144908966910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Solid Block_0: 3194075205655690325
+      Solid Block_1: 1676571543922765174
+      Solid Block_10: -5066628674030369024
+      Solid Block_100: -7105280082841976328
+      Solid Block_101: 2490033013773044255
+      Solid Block_102: -331915472106189452
+      Solid Block_103: 7782342194175913936
+      Solid Block_104: -5986977925127985148
+      Solid Block_105: -5498056448960069829
+      Solid Block_106: 8349497780100942339
+      Solid Block_107: -2999917167493084009
+      Solid Block_108: 6531937713786647981
+      Solid Block_109: 8222784830071364503
+      Solid Block_11: -590149613902545281
+      Solid Block_110: -1026215578377534806
+      Solid Block_111: -2798176634853670598
+      Solid Block_112: 9071702201314925733
+      Solid Block_113: -5519703046527996991
+      Solid Block_114: -7401656023359325340
+      Solid Block_115: 6804997033447021426
+      Solid Block_116: 4832569957531976899
+      Solid Block_117: -7029064156329499219
+      Solid Block_118: 2497671949447782840
+      Solid Block_119: 7045809578804795785
+      Solid Block_12: 7097010936901919349
+      Solid Block_120: -2201072144908966910
+      Solid Block_13: 6112983251761745375
+      Solid Block_14: 2503833974554570621
+      Solid Block_15: 5058702402074466925
+      Solid Block_16: -8787496534307116657
+      Solid Block_17: 4141711426066283978
+      Solid Block_18: -5889658296703678197
+      Solid Block_19: 7207376781548226859
+      Solid Block_2: -9097068920397000124
+      Solid Block_20: -3052525180119164238
+      Solid Block_21: -1829681813054411069
+      Solid Block_22: -8296158308461731350
+      Solid Block_23: -4064836417660702392
+      Solid Block_24: 2420784954453009348
+      Solid Block_25: 8933831520148673206
+      Solid Block_26: -7156836376170301679
+      Solid Block_27: -996185368714056297
+      Solid Block_28: -7902827039560327947
+      Solid Block_29: 6825731355443625806
+      Solid Block_3: 3649115120953069761
+      Solid Block_30: 4620955317844765881
+      Solid Block_31: 1290638434212458379
+      Solid Block_32: 2080634938449647371
+      Solid Block_33: -9058020006054745842
+      Solid Block_34: 5214603229856310723
+      Solid Block_35: 7101751808423161578
+      Solid Block_36: 4925680664583028137
+      Solid Block_37: 337118537666058151
+      Solid Block_38: -8876171073592500256
+      Solid Block_39: 7723280369992786879
+      Solid Block_4: -9053588350165256462
+      Solid Block_40: 9194738148171059183
+      Solid Block_41: 1737038270251508114
+      Solid Block_42: -984851219989671587
+      Solid Block_43: -2162741095838036736
+      Solid Block_44: -54264115003339546
+      Solid Block_45: 96962893128924023
+      Solid Block_46: 5044924355507307235
+      Solid Block_47: 8086791643577310145
+      Solid Block_48: 6027040769455611336
+      Solid Block_49: 8135521367892782469
+      Solid Block_5: 3233601178564263386
+      Solid Block_50: 1027572074140704048
+      Solid Block_51: -2192276542582372184
+      Solid Block_52: -2389329532118620214
+      Solid Block_53: 8888424945684181248
+      Solid Block_54: -4226478539152388349
+      Solid Block_55: -6439197115406855947
+      Solid Block_56: 5299038158483454281
+      Solid Block_57: -8159701298374113508
+      Solid Block_58: 1835070327581434685
+      Solid Block_59: 5394212473334846157
+      Solid Block_6: -8840983509152710445
+      Solid Block_60: 3062470281314215390
+      Solid Block_61: -6899681448431021869
+      Solid Block_62: 7748531431851816913
+      Solid Block_63: -3206511190922238531
+      Solid Block_64: -850768723950015120
+      Solid Block_65: -984596966022716278
+      Solid Block_66: -3719692974512500249
+      Solid Block_67: -1858814223941384367
+      Solid Block_68: -3828245843219744490
+      Solid Block_69: 1649692515531057639
+      Solid Block_7: 331300800009014990
+      Solid Block_70: 3170548118023357276
+      Solid Block_71: 2282202452140866781
+      Solid Block_72: -5826427019439049731
+      Solid Block_73: -561602795831914711
+      Solid Block_74: 5891549811048040569
+      Solid Block_75: 5614937258506125158
+      Solid Block_76: -1082433796441541801
+      Solid Block_77: 6026779730523725873
+      Solid Block_78: 9159573114117786829
+      Solid Block_79: -7637494938685521791
+      Solid Block_8: 254610327151089852
+      Solid Block_80: 2514854794624438449
+      Solid Block_81: -6039872312777263268
+      Solid Block_82: -4131626471182357749
+      Solid Block_83: -4586525767055672607
+      Solid Block_84: -3917316053622335679
+      Solid Block_85: 5167062634874772090
+      Solid Block_86: 7112288285326549895
+      Solid Block_87: 4896662211628768465
+      Solid Block_88: 4152243754328055889
+      Solid Block_89: -8609335474005571087
+      Solid Block_9: -4212266072393087875
+      Solid Block_90: -1823765152844056476
+      Solid Block_91: 7663996014739276642
+      Solid Block_92: -736886671114507971
+      Solid Block_93: 8889515613205073784
+      Solid Block_94: -4801143319834595068
+      Solid Block_95: -8534645625869147507
+      Solid Block_96: 3915225819623805246
+      Solid Block_97: 8440866846287324774
+      Solid Block_98: -3618194453790711796
+      Solid Block_99: -5054529165251679868
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -23,18 +23,18 @@ public class GameManager : MonoBehaviour
     private void OnEnable()
     {
         PlayerHealth.OnPlayerDeath += OnGameOver;
-        // GhostHealth.OnPlayerWin += GoNextLevel;
+        ExitDoor.OnPlayerWinLevel += GoNextLevel;
     }
 
     private void OnDisable()
     {
         PlayerHealth.OnPlayerDeath -= OnGameOver;
-        // GhostHealth.OnPlayerWin -= GoNextLevel;
+        ExitDoor.OnPlayerWinLevel -= GoNextLevel;
     }
 
     private void OnGameOver()
     {
-        // 今のレベルを再プレイする
+        // 今のレベルを再プレイする
         PlayerPrefs.SetInt(PLAYER_PREFS.LAST_PLAYING_LEVEL, SceneManager.GetActiveScene().buildIndex);
         _fader.FadeOutScreen(() => SceneManager.LoadScene(SCENES.GAME_OVER));
     }
