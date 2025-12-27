@@ -17,6 +17,10 @@ public class MainMenuController : MonoBehaviour
 
         // フェードインでタイトル画面表示
         _fader.FadeInScreen();
+
+        // カーソルを表示にする
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void LoadNewGame()

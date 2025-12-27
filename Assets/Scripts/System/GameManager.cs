@@ -18,6 +18,10 @@ public class GameManager : MonoBehaviour
 
         // フェードインでタイトル画面表示
         _fader.FadeInScreen();
+
+        // カーソルを非表示にする
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Confined;
     }
 
     private void OnEnable()
@@ -39,7 +43,8 @@ public class GameManager : MonoBehaviour
         _fader.FadeOutScreen(() => SceneManager.LoadScene(SCENES.GAME_OVER));
     }
 
-    private void GoNextLevel()
+    // will also be called on from timeline signal of entry and exit cutscenes
+    public void GoNextLevel()
     {
         int index = SceneManager.GetActiveScene().buildIndex + 1;
         // index = index == SCENES.GAME_OVER ? SCENES.GAME_CLEAR : index;

@@ -912,31 +912,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Menu UI
       objectReference: {fileID: 0}
-    - target: {fileID: 3075980317878409514, guid: 7c8fe45d525d3bd4898efe231b9220c1, type: 3}
+    - target: {fileID: 0}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3075980317878409514, guid: 7c8fe45d525d3bd4898efe231b9220c1, type: 3}
+    - target: {fileID: 0}
       propertyPath: m_SceneBindings.Array.data[0].value
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 3075980317878409514, guid: 7c8fe45d525d3bd4898efe231b9220c1, type: 3}
+    - target: {fileID: 0}
       propertyPath: m_SceneBindings.Array.data[1].value
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 3075980317878409514, guid: 7c8fe45d525d3bd4898efe231b9220c1, type: 3}
+    - target: {fileID: 0}
       propertyPath: m_SceneBindings.Array.data[2].value
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 3075980317878409514, guid: 7c8fe45d525d3bd4898efe231b9220c1, type: 3}
+    - target: {fileID: 0}
       propertyPath: m_SceneBindings.Array.data[3].value
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 3075980317878409514, guid: 7c8fe45d525d3bd4898efe231b9220c1, type: 3}
+    - target: {fileID: 0}
       propertyPath: m_SceneBindings.Array.data[4].value
       value: 
       objectReference: {fileID: 1514679182}
-    - target: {fileID: 3075980317878409514, guid: 7c8fe45d525d3bd4898efe231b9220c1, type: 3}
+    - target: {fileID: 0}
       propertyPath: m_SceneBindings.Array.data[5].value
       value: 
       objectReference: {fileID: 1514679184}
