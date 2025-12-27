@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MainMenuController : MonoBehaviour
+public class ExplainationController : MonoBehaviour
 {
     private Fader _fader;
 
@@ -10,7 +10,7 @@ public class MainMenuController : MonoBehaviour
 
         if (!_fader)
         {
-            Debug.LogError("MainMenuController: Fader component is missing in the scene!");
+            Debug.LogError("ExplainationController: Fader component is missing in the scene!");
             enabled = false;
             return;
         }
@@ -23,9 +23,9 @@ public class MainMenuController : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
     }
 
-    public void LoadNewGame()
+    public void GoToNextScene()
     {
         // フェードアウトして次のシーンへ移動
-        _fader.FadeOutScreen(() => SceneLoader.LoadScene(SCENES.EXPLAINATION));
+        _fader.FadeOutScreen(() => SceneLoader.LoadScene(SCENES.ENTRY_CUTSCENE));
     }
 }

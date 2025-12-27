@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Scene.unity
     guid: f247227c40638c549836b20947446c24
   - enabled: 1
+    path: Assets/Scenes/Explaination Scene.unity
+    guid: 2b0f32c876e9b09418ff898896ade2ff
+  - enabled: 1
     path: Assets/Scenes/Levels/Entry Cutscene/Entry Cutscene.unity
     guid: 0c37f19bdb22f4e498e67486879678d1
   - enabled: 1
