@@ -731,6 +731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8c1bcb44b1098e4b8e8bb1c1bdfc41e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
+  timerText: {fileID: 0}
   _dashKeyAnimator: {fileID: 1646396262}
 --- !u!1001 &1188501252
 PrefabInstance:
@@ -745,6 +746,10 @@ PrefabInstance:
       value: InGame UI
       objectReference: {fileID: 0}
     - target: {fileID: 1369043538053661308, guid: e387c2fe3f677044d9552cba94b1834e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1754719128715624876, guid: e387c2fe3f677044d9552cba94b1834e, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
