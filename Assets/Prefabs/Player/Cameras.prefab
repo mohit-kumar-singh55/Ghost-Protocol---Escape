@@ -61,7 +61,7 @@ Transform:
   m_GameObject: {fileID: 4643749398207125480}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.478632, y: 0.12820514, z: -10}
+  m_LocalPosition: {x: 9.921356, y: 1.1282043, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -92,7 +92,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 34
-    OrthographicSize: 8
+    OrthographicSize: 10
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -135,7 +135,7 @@ MonoBehaviour:
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
   TargetOffset: {x: 0, y: 0, z: 0}
-  Damping: {x: 3, y: 3, z: 1}
+  Damping: {x: 2, y: 1, z: 1}
   Lookahead:
     Enabled: 0
     Time: 0
@@ -323,7 +323,7 @@ Transform:
   m_GameObject: {fileID: 8983482882432404003}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.478632, y: 0.12820514, z: -10}
+  m_LocalPosition: {x: 9.921356, y: 1.1282043, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -341,7 +341,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.34241125, g: 0.42203957, b: 0.5471698, a: 0}
+  m_BackGroundColor: {r: 0.14805579, g: 0.18882102, b: 0.23899364, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -366,7 +366,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 8
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

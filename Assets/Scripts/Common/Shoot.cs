@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public abstract class Shoot : MonoBehaviour
 {
     #region Serialized Fields
@@ -12,6 +13,7 @@ public abstract class Shoot : MonoBehaviour
     [SerializeField] protected GameObject _bulletPrefab;
     [SerializeField] private GameObject _muzzleFlash;
     [SerializeField] private Transform _bulletParent;
+    [SerializeField] private AudioSource _bulletShootAS;      // bullet shoot sfx 
     #endregion
 
     #region Properties
@@ -63,6 +65,9 @@ public abstract class Shoot : MonoBehaviour
 
     private void AfterShootEffects()
     {
+        // sfx
+        if (_bulletShootAS) _bulletShootAS.Play();
+
         // camera shake
         _cameraController.ShakeCamera(0.05f);
 
