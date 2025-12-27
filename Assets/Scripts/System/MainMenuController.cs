@@ -26,6 +26,6 @@ public class MainMenuController : MonoBehaviour
     public void LoadNewGame()
     {
         // フェードアウトしてレベル1へ移動
-        _fader.FadeOutScreen(() => SceneLoader.LoadScene(SCENES.LEVEL_1));
+        _fader.FadeOutScreen(() => SceneLoader.LoadScene(SCENES.ENTRY_CUTSCENE));
     }
 }
