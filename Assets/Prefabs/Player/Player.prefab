@@ -269,6 +269,7 @@ MonoBehaviour:
   _bulletPrefab: {fileID: 3698569736581987267, guid: f759f6ad0fae9ee44b1fa38d4f7a188a, type: 3}
   _muzzleFlash: {fileID: 494252938570604132}
   _bulletParent: {fileID: 0}
+  _bulletShootAS: {fileID: 468460471205278328}
 --- !u!114 &5545586624121550823
 MonoBehaviour:
   m_ObjectHideFlags: 0
