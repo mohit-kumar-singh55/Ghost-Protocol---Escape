@@ -28,19 +28,13 @@ so i am thinking of making this game like:
 - in bg, add some clouds with different speeds to make parallex effect
 
 # polish
-- if possible, make this kind of level visibility effect https://store.steampowered.com/app/2310670/Midnight_Arrow/
 - add entry and ending cutscene
-- add some post processing
-- add some camera shakes on jump, hit, move, helicopter entry, etc
+<!-- - add some post processing -->
+<!-- - add some camera shakes on jump, hit, move, helicopter entry, etc -->
 <!-- - add some sprite effect for bullet fire, damage, explosion, helicopter air blow, on sprint, on jump, etc -->
 ** if possible, add special power like
 	- lets say after killing 2 helicopters, player can use a special power
 	- special power is that, lets say on pressing T (is special power is available), the time will get slow for sometime, and we will show a domain expension effect as in the GGX JAM game, by which the background will get kind of invisible, to player can focus on shooting, and after sometime, slowly normalize the time and the effect **
-- if have time, add "After Image Effect" on sprint, https://github.com/TheGabeHD/AfterImage
-	
-# UI
-- main menu -> Start, Quit buttons -> on righside play the looped animation of player smooking from left hand, taking support of the gun pointing the ground
-
 
 
 ** add a video, gif explaining how to do wall jump
