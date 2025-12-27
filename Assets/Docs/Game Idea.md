@@ -24,11 +24,11 @@ so i am thinking of making this game like:
 ** if possible (if have time), make ground soldiers as well, who will shoot when the player is in range and can chase until there is a blockage in between **
 
 # environment
-- the level will be left to right, with some blockage, walls (that need to be climbed using wall jump), broken bridges (with rope joint, i forgot the name of that joint)
+<!-- - the level will be left to right, with some blockage, walls (that need to be climbed using wall jump), broken bridges -->
 - in bg, add some clouds with different speeds to make parallex effect
 
 # polish
-- add entry and ending cutscene
+<!-- - add entry and ending cutscene -->
 <!-- - add some post processing -->
 <!-- - add some camera shakes on jump, hit, move, helicopter entry, etc -->
 <!-- - add some sprite effect for bullet fire, damage, explosion, helicopter air blow, on sprint, on jump, etc -->
