@@ -66,6 +66,7 @@ public class PlayerHealth : Health
         _playerShoot.enabled = false;
         _spriteRenderer.enabled = false;
         _playerController.enabled = false;
+        _playerController.transform.GetChild(0).gameObject.SetActive(false);    // disable sprite skin
 
         // play death effect
         _deathEffect.Play();
