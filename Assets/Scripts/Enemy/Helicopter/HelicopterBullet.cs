@@ -29,7 +29,7 @@ public class HelicopterBullet : Bullet
 
     private void HomingBullet()
     {
-        // moving towards player, like a homing missile but only to some extent
+        // ある程度プレイヤーを追尾する（完全なホーミングではない）
         Vector3 dirToPlayer = (_playerTransform.position - transform.position).normalized;
         dirToPlayer.z = 0;
         transform.rotation = Quaternion.LookRotation(Vector3.forward, dirToPlayer);
@@ -38,7 +38,6 @@ public class HelicopterBullet : Bullet
 
     protected override void OnCollisionEnter2D(Collision2D collision)
     {
-        // TODO: add effects, damage, etc.
         base.OnCollisionEnter2D(collision);
     }
 }

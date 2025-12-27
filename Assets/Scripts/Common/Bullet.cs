@@ -29,11 +29,11 @@ public abstract class Bullet : MonoBehaviour
 
     private void AfterCollisionEffects()
     {
-        // explosion effect
+        // 爆発エフェクト
         if (_explosionEffectPrefab)
             Instantiate(_explosionEffectPrefab, transform.position, Quaternion.identity);
 
-        // camera shake
+        // カメラシェイク
         CameraController.Instance.ShakeCamera(0.05f);
     }
 }

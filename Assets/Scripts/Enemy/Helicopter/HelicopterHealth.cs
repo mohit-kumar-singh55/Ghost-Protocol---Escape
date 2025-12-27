@@ -13,13 +13,13 @@ public class HelicopterHealth : Health
 
         if (_currentHealth == 0)
         {
-            // invoke events
+            // エベント
             OnHelicopterDestroyed?.Invoke();
 
-            // camera shake
+            // マズルフラッシュ
             CameraController.Instance.ShakeCamera(0.3f);
 
-            // explosion effect
+            // 爆発エフェクト
             if (_explosionEffectPrefab)
             {
                 Vector3 explosionPos = transform.position;
@@ -31,7 +31,7 @@ public class HelicopterHealth : Health
         }
     }
 
-    // ** damage due to suicide crash into the player not by bullet **
+    // ** 弾によるダメージではなく、プレイヤーへの自爆突撃によるダメージ **
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.TryGetComponent(out Health health))

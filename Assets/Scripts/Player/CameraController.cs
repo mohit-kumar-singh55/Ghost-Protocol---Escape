@@ -12,6 +12,7 @@ public class CameraController : Singleton<CameraController>
         _impulseSource = GetComponent<CinemachineImpulseSource>();
     }
 
+    // カメラシェイク
     public void ShakeCamera(float force)
     {
         _impulseSource.GenerateImpulse(force);

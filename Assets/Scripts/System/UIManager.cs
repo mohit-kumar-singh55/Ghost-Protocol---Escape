@@ -22,7 +22,7 @@ public class UIManager : Singleton<UIManager>
 
     public Image[] InitializeHealthUI(int totalHealth, GameObject healthUIParent, GameObject healthUIPrefab)
     {
-        // initialize health UI
+        // 体力 UI を最大値分まで生成する
         Image[] healthUIs = new Image[totalHealth];
         for (int i = 0; i < totalHealth; i++) healthUIs[i] = Instantiate(healthUIPrefab, healthUIParent.transform).GetComponent<Image>();
         return healthUIs;

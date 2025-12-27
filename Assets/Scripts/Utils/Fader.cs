@@ -47,10 +47,10 @@ public class Fader : MonoBehaviour
     /// </summary>
     private IEnumerator SetColorAlphaValue(bool isFadeIn = true, Action onFadeComplete = null)
     {
-        // set initial alpha
+        // アルファ値の初期化
         SetAlpha(isFadeIn ? 1f : 0f);
 
-        // change alpha
+        // アルファ値を変化させる
         while (isFadeIn ? _faderImage.color.a > 0f : _faderImage.color.a < 1f)
         {
             float newAlpha = _faderImage.color.a + (isFadeIn ? -.1f : .1f);

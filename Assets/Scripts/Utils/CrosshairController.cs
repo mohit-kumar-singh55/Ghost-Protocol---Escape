@@ -16,10 +16,10 @@ public class CrosshairController : Singleton<CrosshairController>
 
     void Update()
     {
-        Vector2 mousePos = Mouse.current.position.ReadValue();      // Get mouse position
-        Vector3 worldPos = cam.ScreenToWorldPoint(mousePos);        // Convert mouse position to world position
-        worldPos.z = -1;    // place it in the most front layer
-        // Smoothly move the crosshair
+        Vector2 mousePos = Mouse.current.position.ReadValue();      // マウスの座標を取得
+        Vector3 worldPos = cam.ScreenToWorldPoint(mousePos);        // マウスの座標をワールド座標に変換
+        worldPos.z = -1;    // 最前面のレイヤーに配置する
+        // クロスヘアを滑らかに移動させる
         transform.position = Vector3.Lerp(transform.position, worldPos, _speed * Time.deltaTime);
     }
 }

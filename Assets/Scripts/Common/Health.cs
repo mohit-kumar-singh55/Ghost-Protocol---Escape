@@ -3,7 +3,7 @@ using UnityEngine;
 public abstract class Health : MonoBehaviour
 {
     #region Serialized Fields
-    [Tooltip("Maximum health")]
+    [Tooltip("最大HP")]
     [SerializeField] protected int _maxHealth = 5;
     #endregion
 
@@ -13,7 +13,7 @@ public abstract class Health : MonoBehaviour
 
     protected virtual void Start()
     {
-        // initial health
+        // init
         _currentHealth = _maxHealth;
     }
 

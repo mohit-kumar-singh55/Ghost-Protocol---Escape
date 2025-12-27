@@ -47,7 +47,7 @@ public abstract class Shoot : MonoBehaviour
         // spawn bullet
         GameObject bullet = Instantiate(_bulletPrefab, _firePoint.position, _firePoint.rotation, _bulletParent);
 
-        // no rigidbody on bullet
+        // rigidbodyがない
         if (!bullet.TryGetComponent(out Rigidbody2D rb))
         {
             Destroy(bullet);
@@ -55,7 +55,7 @@ public abstract class Shoot : MonoBehaviour
             return;
         }
 
-        // shoot in the given direction
+        // 指定した方向に発射する
         dir.z = 0;
         rb.AddForce(dir * _shootSpeed, ForceMode2D.Impulse);
 
@@ -68,14 +68,14 @@ public abstract class Shoot : MonoBehaviour
         // sfx
         if (_bulletShootAS) _bulletShootAS.Play();
 
-        // camera shake
+        // カメラシェイク
         _cameraController.ShakeCamera(0.05f);
 
-        // muzzle flash
+        // マズルフラッシュ
         if (_muzzleFlash)
         {
             ToogleMuzzleFlash();
-            Invoke(nameof(ToogleMuzzleFlash), 0.05f);   // turn off muzzle flash after short delay
+            Invoke(nameof(ToogleMuzzleFlash), 0.05f);   // 短時間後にマズルフラッシュをオフにする
         }
     }
 

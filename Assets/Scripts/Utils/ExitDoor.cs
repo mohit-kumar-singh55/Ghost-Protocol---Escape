@@ -9,7 +9,7 @@ public class ExitDoor : MonoBehaviour
     {
         if (collision.gameObject.TryGetComponent(out PlayerController player))
         {
-            // ** Player Won: player reached the exit door **
+            // ** プレイヤーの勝ち: ExitDoor への衝突 **
             OnPlayerWinLevel?.Invoke();
         }
     }

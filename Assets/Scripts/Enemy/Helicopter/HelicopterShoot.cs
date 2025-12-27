@@ -41,19 +41,19 @@ public class HelicopterShoot : Shoot
     {
         Vector3 dirToPlayer = (_playerTransform.position - _firePoint.position).normalized;
         dirToPlayer.z = 0;
-        // check if helicopter is above player
+        // ヘリコプターがプレイヤーの上空にいるかをチェックする
         bool isHelicopterAbovePlayer = Vector3.Dot(dirToPlayer, Vector3.up) < 0;
 
-        // only shoot when helicopter is above player
+        // ヘリコプターがプレイヤーの上空にいるときのみ射撃する
         if (!_isShooting && isHelicopterAbovePlayer)
         {
             _isShooting = true;
-            StartCoroutine(BurstShooting());    // start shooting
+            StartCoroutine(BurstShooting());    // 射撃を開始
         }
         else if (_isShooting && !isHelicopterAbovePlayer)
         {
             _isShooting = false;
-            StopAllCoroutines();    // stop shooting
+            StopAllCoroutines();    // 射撃を停止
         }
     }
 
@@ -61,12 +61,12 @@ public class HelicopterShoot : Shoot
     {
         while (true)
         {
-            // burst shoot
+            // バースト射撃
             for (int i = 0; i < _bulletsPerBurst; i++)
             {
-                // get shoot direction
+                // 射撃方向を取得する
                 Vector3 _shootDir = (_playerTransform.position - _firePoint.position).normalized;
-                ShootBullet(_shootDir);     // shoot
+                ShootBullet(_shootDir);     // 射撃
 
                 yield return new WaitForSeconds(_fireRate);
             }

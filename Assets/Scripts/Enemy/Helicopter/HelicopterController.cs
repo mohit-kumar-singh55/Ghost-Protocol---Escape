@@ -42,7 +42,7 @@ public class HelicopterController : MonoBehaviour
 
     private void MoveTowardsPlayer()
     {
-        // move towards player
+        // プレイヤーに向かって移動
         Vector3 dir = (_playerTransform.position - transform.position).normalized;
         dir.z = 0;
         _rb.AddForce(dir * _speed, ForceMode2D.Force);

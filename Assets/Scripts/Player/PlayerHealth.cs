@@ -11,15 +11,15 @@ public class PlayerHealth : Health
     #region Serialized Fields
     [SerializeField] protected GameObject _healthUIParent;
     [SerializeField] protected GameObject _healthUIPrefab;
-    [Tooltip("Should be in order, Full Heart -> Empty Heart")]
+    [Tooltip("次の順番になるように入れる, Full Heart -> Empty Heart")]
     [SerializeField] protected Sprite[] _healthUIImages;
     #endregion
 
     #region Properties
     private UIManager _uiManager;
-    private Image[] _healthUIs;       // image component of each health ui
+    private Image[] _healthUIs;       // 各体力 UI の Image コンポーネント
 
-    // to disable player controls on death
+    // 死亡時にプレイヤー操作を無効化するため
     private Rigidbody2D _rb;
     private PlayerShoot _playerShoot;
     private PlayerInput _playerInput;
@@ -43,7 +43,7 @@ public class PlayerHealth : Health
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _playerController = GetComponent<PlayerController>();
 
-        // populate total health ui
+        // 体力 UI を最大値分まで生成する
         _healthUIs = _uiManager.InitializeHealthUI(_maxHealth, _healthUIParent, _healthUIPrefab);
     }
 
@@ -51,7 +51,7 @@ public class PlayerHealth : Health
     {
         base.TakeDamage(damage);
 
-        // update health ui
+        // 体力 UI を更新
         _uiManager.UpdateHealthUI(_currentHealth, _healthUIs, _healthUIImages[^1]);
 
         // ** lose condition **
@@ -60,7 +60,7 @@ public class PlayerHealth : Health
 
     private IEnumerator PlayerDeathHandler()
     {
-        // disable player controls
+        // プレイヤー操作を無効化する
         _rb.simulated = false;
         _playerInput.enabled = false;
         _playerShoot.enabled = false;
@@ -68,15 +68,15 @@ public class PlayerHealth : Health
         _playerController.enabled = false;
         _playerController.transform.GetChild(0).gameObject.SetActive(false);    // disable sprite skin
 
-        // play death effect
+        // 死亡エフェクトを再生
         _deathEffect.Play();
         float duration = _deathEffect.main.duration;
         CameraController.Instance.ShakeCamera(0.2f);
 
-        // wait for effect to finish
+        // エフェクが終わるまで待機
         yield return new WaitForSeconds(duration);
 
-        // invoke player death event
+        // 死亡処理
         OnPlayerDeath?.Invoke();
     }
 }

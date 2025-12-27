@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
         _fader.FadeOutScreen(() => SceneManager.LoadScene(SCENES.GAME_OVER));
     }
 
-    // will also be called on from timeline signal of entry and exit cutscenes
+    // 入場・退出カットシーンの Timeline シグナルからも呼び出される
     public void GoNextLevel()
     {
         int index = SceneManager.GetActiveScene().buildIndex + 1;

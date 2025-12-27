@@ -48,6 +48,7 @@ public class Timer : MonoBehaviour
             currentTime = 0;
             isRunning = false;
 
+            // ゲームオーバー
             OnTimerEnd?.Invoke();
             return;
         }

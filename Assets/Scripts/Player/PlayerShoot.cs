@@ -36,9 +36,9 @@ public class PlayerShoot : Shoot
 
         if (_isShooting && _fireCooldown <= 0)
         {
-            // get shoot direction
+            // 射撃方向を取得する
             Vector3 _shootDir = (crosshair.transform.position - transform.position).normalized;
-            ShootBullet(_shootDir);     // shoot
+            ShootBullet(_shootDir);     // 射撃
         }
     }
 

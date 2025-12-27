@@ -43,22 +43,22 @@ public class HelicopterSpawner : MonoBehaviour
 
     private void SpawnHelicopter()
     {
-        // random spawn position
+        // ランダムで左右に配置
         bool spawnFromLeft = Random.value > 0.5f;
         Vector3 spawnPosition = spawnFromLeft ? _helicopterSpawnPoints.LeftSpawnPoint.position : _helicopterSpawnPoints.RightSpawnPoint.position;
 
-        // random helicopter
+        // ランダムヘリコプター
         GameObject helicopterPrefab = _helicopterPrefabs[Random.Range(0, _helicopterPrefabs.Length)];
 
-        // spawn helicopter
-        spawnPosition.z = -1;  // ensure in front most layer
+        // ヘリコプター生成
+        spawnPosition.z = -1;  // 最前面のレイヤーに表示されるようにする
         GameObject helicopter = Instantiate(helicopterPrefab, spawnPosition, Quaternion.identity);
 
-        // set rotation
+        // 回転を設定する
         Quaternion rot = Quaternion.Euler(0, spawnFromLeft ? 0 : 180, 0);
         helicopter.transform.rotation = rot;
 
-        // get controller and health
+        // コントローラーと体力を取得する
         bool hasController = helicopter.TryGetComponent(out HelicopterController helicopterController);
         bool hasHealth = helicopter.TryGetComponent(out HelicopterHealth helicopterHealth);
 
@@ -71,7 +71,7 @@ public class HelicopterSpawner : MonoBehaviour
 
         helicopterController.PlayerTransform = _playerTransform;
 
-        // destroy new helicopter when destroyed
+        // 破壊されたら新しいヘリコプターをスポーンする
         helicopterHealth.OnHelicopterDestroyed += () => StartCoroutine(DelayedSpawnHelicopter(_spawnDelay));
     }
 
