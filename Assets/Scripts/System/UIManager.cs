@@ -1,12 +1,16 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class UIManager : Singleton<UIManager>
 {
+    [SerializeField] TMP_Text timerText;
     [SerializeField] private Animator _dashKeyAnimator;
 
     private const string DASH_KEY_ANIMATOR_PARAM = "KeyZoom";
     private readonly int _dashKeyHash = Animator.StringToHash(DASH_KEY_ANIMATOR_PARAM);
+
+    public void SetTimerText(float min, float sec) => timerText.text = string.Format("{0:00}:{1:00}", min, sec);
 
     public void PlayDashKeyAnimation(bool play = true)
     {

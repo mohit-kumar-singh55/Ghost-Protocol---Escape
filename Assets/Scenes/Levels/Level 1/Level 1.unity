@@ -119,6 +119,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &7002371 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7867997727635344147, guid: e387c2fe3f677044d9552cba94b1834e, type: 3}
+  m_PrefabInstance: {fileID: 1188501252}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &192987844
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,7 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f57c4b5cabf54c4b819da2a6c45b724, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HelicopterSpawner
-  _spawnDelay: 10
+  _spawnDelay: 5
   _helicopterSpawnPoints:
     LeftSpawnPoint: {fileID: 634523877}
     RightSpawnPoint: {fileID: 407848184}
@@ -488,6 +499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8c1bcb44b1098e4b8e8bb1c1bdfc41e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
+  timerText: {fileID: 7002371}
   _dashKeyAnimator: {fileID: 1646396262}
 --- !u!1001 &1188501252
 PrefabInstance:
@@ -591,6 +603,51 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1698906345475961533, guid: e387c2fe3f677044d9552cba94b1834e, type: 3}
   m_PrefabInstance: {fileID: 1188501252}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1200439073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1200439075}
+  - component: {fileID: 1200439074}
+  m_Layer: 0
+  m_Name: Timer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1200439074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200439073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9f6f3c432a7e9445bac6bcfdf3a2d96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Timer
+  startTime: 300
+--- !u!4 &1200439075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200439073}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1617893581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,4 +1124,5 @@ SceneRoots:
   - {fileID: 432119830}
   - {fileID: 1188501252}
   - {fileID: 1869561356}
+  - {fileID: 1200439075}
   - {fileID: 192987845}

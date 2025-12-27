@@ -26,12 +26,14 @@ public class GameManager : MonoBehaviour
 
     private void OnEnable()
     {
+        Timer.OnTimerEnd += OnGameOver;
         PlayerHealth.OnPlayerDeath += OnGameOver;
         ExitDoor.OnPlayerWinLevel += GoNextLevel;
     }
 
     private void OnDisable()
     {
+        Timer.OnTimerEnd -= OnGameOver;
         PlayerHealth.OnPlayerDeath -= OnGameOver;
         ExitDoor.OnPlayerWinLevel -= GoNextLevel;
     }
