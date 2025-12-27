@@ -38,7 +38,7 @@ public class HelicopterSpawner : MonoBehaviour
             return;
         }
 
-        SpawnHelicopter();
+        StartCoroutine(DelayedSpawnHelicopter(_spawnDelay));
     }
 
     private void SpawnHelicopter()
