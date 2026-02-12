@@ -18,8 +18,9 @@ public class PlayerController : MonoBehaviour
     [Space(10)]
     [Header("ジャンプ設定")]
     [SerializeField] private float _jumpForce = 8f;     // normal jump force
-    [SerializeField] private float _wallJumpForce = 12f;     // wall jump force
+    [SerializeField] private float _wallJumpForce = 23f;     // wall jump force
     [SerializeField] private float _gravityScaleWhenFalling = 4f;   // increase gravity when in air
+    [SerializeField] private float _groundCheckDistance = 1.3f;    // distance for ground check raycast
     [SerializeField] private LayerMask _groundLayer;
     [SerializeField] private LayerMask _wallLayer;
 
@@ -38,8 +39,6 @@ public class PlayerController : MonoBehaviour
     private float _moveX;
     private float _dashTimer = 0;
     private bool _isShooting = false;
-    private bool _isJumping = false;
-    private bool _isGrounded = true;
     private bool _isWall = false;
     private Vector3 _wallTouchPoint;
     private float _originalGravityScale;
@@ -109,22 +108,34 @@ public class PlayerController : MonoBehaviour
         HandleMove();
     }
 
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        // 重力を元に戻す
+        if (IsGrounded()) _rb.gravityScale = _originalGravityScale;
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        // 空中では重力を強める     
+        if (!IsGrounded()) _rb.gravityScale = _gravityScaleWhenFalling;
+    }
+
     void OnTriggerEnter2D(Collider2D collision)
     {
-        // ground チェック
-        if (IsInLayerMask(collision.gameObject.layer, _groundLayer))
-        {
-            _isGrounded = true;
-            _isJumping = false;
-            _rb.gravityScale = _originalGravityScale;       // 重力を元に戻す
-        }
-
         // wall チェック
         if (IsInLayerMask(collision.gameObject.layer, _wallLayer))
         {
             _isWall = true;
             _wallTouchPoint = collision.ClosestPoint(transform.position);
+            Debug.Log("Wall Touch Point: ");
         }
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        // wall チェック
+        if (IsInLayerMask(collision.gameObject.layer, _wallLayer))
+            _isWall = false;
     }
     #endregion
 
@@ -166,31 +177,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnJump(InputValue val)
     {
-        // ** 壁ジャンプ **
-        if (_isJumping && _isWall && !_isGrounded)
-        {
-            // check for side wall jump
-            Vector3 dirToJump = (transform.position - _wallTouchPoint).normalized + Vector3.up;
-            dirToJump.z = 0;
-            dirToJump.Normalize();
-
-            // Debug.DrawRay(transform.position, dirToJump, Color.red, 0f, true);
-
-            _rb.AddForce(dirToJump * _wallJumpForce, ForceMode2D.Impulse);
-
-            _isWall = false;
-            return;
-        }
-
-        // 接地している場合のみ通常ジャンプを行う
-        if (!_isGrounded) return;
-
-        // ** 普通ジャンプ **
-        _isWall = false;
-        _isJumping = true;
-        _isGrounded = false;
-        _rb.gravityScale = _gravityScaleWhenFalling;        // 空中では重力を強める
-        _rb.AddForceY(_jumpForce, ForceMode2D.Impulse);
+        HandleJump();
     }
     #endregion
 
@@ -200,6 +187,39 @@ public class PlayerController : MonoBehaviour
         float targetVelocity = _moveX * _speed;
         float velocityChange = targetVelocity - _rb.linearVelocityX;
         _rb.AddForceX(velocityChange, ForceMode2D.Force);
+    }
+
+    private void HandleJump()
+    {
+        // ** 壁ジャンプ **
+        if (_isWall)
+        {
+            // 壁に触れたポイントへの方向を取得
+            Vector3 dirToTouchPoint = _wallTouchPoint - transform.position;
+            dirToTouchPoint.z = 0;
+            dirToTouchPoint.Normalize();
+
+            // 触れたポイントがプレイヤーの右側にあるかをチェック
+            bool isRight = Vector2.Dot(dirToTouchPoint, Vector2.right) > 0;
+
+            // ジャンプ方向を計算
+            Vector2 dirToJump = Vector2.right * (isRight ? -1 : 1) + Vector2.up;
+            dirToJump.Normalize();
+
+            // Debug.DrawRay(transform.position, dirToJump * 5, Color.red, 10f, true);
+
+            // jump force
+            _rb.AddForce(dirToJump * _wallJumpForce, ForceMode2D.Impulse);
+
+            _isWall = false;
+            return;
+        }
+
+        // 接地している場合のみ通常ジャンプを行う
+        if (!IsGrounded()) return;
+
+        // ** 普通ジャンプ **
+        _rb.AddForceY(_jumpForce, ForceMode2D.Impulse);
     }
 
     private void ToogleShoot(bool isShooting)
@@ -248,6 +268,9 @@ public class PlayerController : MonoBehaviour
         // スパインに回転を適用する
         _spine.rotation = Quaternion.Euler(_spine.rotation.eulerAngles.x, _spine.rotation.eulerAngles.y, zAngle);
     }
+
+    // 接地しているかをチェックする
+    private bool IsGrounded() => Physics2D.Raycast(transform.position, Vector2.down, _groundCheckDistance, _groundLayer);
 
     // レイヤーが LayerMask に含まれているかをチェックする
     private bool IsInLayerMask(int layer, LayerMask layerMask) => ((1 << layer) & layerMask.value) != 0;
