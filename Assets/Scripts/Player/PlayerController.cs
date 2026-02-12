@@ -127,7 +127,6 @@ public class PlayerController : MonoBehaviour
         {
             _isWall = true;
             _wallTouchPoint = collision.ClosestPoint(transform.position);
-            Debug.Log("Wall Touch Point: ");
         }
     }
 
